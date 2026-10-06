@@ -4,44 +4,396 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fall Recipes</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+
+    <style>
+        html, body{
+            background-color: rgb(255, 228, 176);
+            color: rgb(52, 33, 19);
+            width: 960px;
+            margin: 0;
+        }
+
+        main, footer{
+            margin: 10px 30px;
+        }
+
+        img{
+            display: block;
+        }
+/* classes below */
+        .masthead{
+            margin: 0 auto;
+        }
+
+        .photos{
+            position: absolute;
+            margin: -30px 600px;
+            border: 5px dashed orange;
+        }
+
+        .more{
+            margin: 50px 0;
+        }
+
+        .amarante-regular {
+            font-family: "Amarante", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+/* headings + others below */
+        h1{
+            font-size: 30pt;
+            margin: -5px 0;
+            padding: 10px 20px;
+            color: black;
+            background-color: white;
+            text-align: center;
+        }
+
+        h2{
+            color: orangered;
+            text-align: center;
+        }
+
+        h4{
+            margin-bottom: -5px;
+        }
+        
+        ul{
+            border: 1px solid rgb(52, 33, 19);
+            padding: 10px 30px;
+            margin-right: 380px;
+            background-color: rgb(255, 241, 206);
+        }
+
+        a{
+            background-color: orange;
+            text-align: center;
+            margin: 0 375px;
+            padding: 15px;
+            border-radius: 10px;
+            display: block;
+        }
+    </style>
 </head>
+
 <body>
     
     <header>
-        <h1>
-            this is a head
+        <div class="masthead">
+            <img src="images/masthead.png" alt="the masthead">
+        </div> 
+
+        <h1 class="amarante-regular">
+            Four Amazing Fall Recipes
         </h1>
-        
-        <div>
-            <!-- masthead image goes here -->
-         </div> 
     </header>
 
-
-
     <main>
-        <section>
-            <h2>
-                this is a subhead
+    <!-- apple fritters recipe starts here -->
+        <article>
+            <h2 class="amarante-regular">
+                Baked Apple Fritters
             </h2>
 
-            <article>
-                <!-- image goes here -->
+            <section>
+                <h3>
+                    Recipe Overview
+                </h3>
 
-                <p> 
-                    this is the paragraphs
+                <p>
+                    Yields: 14 servings &nbsp;|&nbsp; Prep time: 20 minutes &nbsp;|&nbsp; Total Time: 1 hour 15 minutes
                 </p>
-            </article>
-        </section>
+            </section>
+
+            <div class="photos">
+                <img src="./images/apple-fritter.png" alt="A photo of an apple fritter.">
+            </div>
+            
+            <section>
+                <h3>
+                    Ingredients
+                </h3>
+
+                <ul>
+                    <li>2 1/4 cups all-purpose flour</li>
+                    <li>3/4 cup granulated sugar</li>
+                    <li>2 tsp. baking powder</li>
+                    <li>1 1/2 tsp. ground cinnamon</li>
+                    <li>1 tsp. kosher salt + a pinch for glaze</li>
+                    <li>1/4 tsp. finely grated fresh nutmeg</li>
+                    <li>6 tbsp. unsalted butter, cold, cubed</li>
+                    <li>2 medium Granny Smith apples, peeled, cored, finely chopped</li>
+                    <li>2 eggs</li>
+                    <li>1/2 cup heavy cream</li>
+                    <li>1 tsp. pure vanilla extract</li>
+                    <li>1/4 cup milk (for glaze)</li>
+                    <li>2 cups confectioners sugar (for glaze)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>
+                    Directions
+                </h3>
+
+                <p>
+                    First, gather the ingredients for the fritters. 
+                    Preheat the oven to 425°F (220°C) and then gather 2 baking sheets.
+                    Line them with parchment paper. In a big bowl, mix the flour, sugar, baking powder, cinnamon, salt, and nutmeg together well.
+                    Add the butter and work it into the mixture, using your hands to break the butter down into pea-sized pieces.
+                    Add the apple pieces into the bowl and coat them well.
+                    Get a small bowl and mix the eggs, cream, and vanilla together. 
+                    Add the small bowl to big bowl and mix until the batter becomes lumpy and sticky.
+                    Scoop the batter onto the baking sheets using a 1/4-cup measuring cup or a large cookie scoop.
+                    Bake the batter for 12-15 minutes until the tops are slightly golden and the edges are firm, rotating the baking sheets top to bottom halfway through.
+                    Let the fritters cool for 5 minutes, and then transfer them to a wire rack to cool completely.
+                </p>
+
+                <p>
+                    Next, gather the ingredients for the glaze.
+                    Get a medium bowl and stir the confectioners sugar, milk, and salt until it runs off your spoon easily.
+                    Add more milk if needed, 1 teaspoon at a time, until the glaze is thin enough to dip the fritters in.
+                    Once the fritters are ready, dip the tops of them into the glaze and place them back on the rack.
+                    Wait approximately 10 minutes for the glaze to harden.
+                </p>
+            </section>
+        </article>
+
+<!-- pumpkin pie recipe starts here -->
+        <article>
+            <h2 class="amarante-regular">
+                Pumpkin Pie
+            </h2>
+
+            <section>
+                <h3>
+                    Recipe Overview
+                </h3>
+
+                <p>
+                    Yields: 6 servings &nbsp;|&nbsp; Prep time: 30 minutes &nbsp;|&nbsp; Total Time: 2 hours 30 minutes
+                </p>
+            </section>
+
+            <div class="photos">
+                <img src="./images/pumpkin-pie-slice.png" alt="A photo of a slice of pumpkin pie.">
+            </div>
+            
+            <section>
+                <h3>
+                    Ingredients
+                </h3>
+
+                <ul>
+                    <li>Cooking spray</li>
+                    <li>1 tbsp. all-purpose flour + more for rolling</li>
+                    <li>1 batch pie crust, chilled</li>
+                    <li>3 eggs, beaten to blend</li>
+                    <li>1 can (15oz.) pumpkin puree</li>
+                    <li>3/4 cup packed brown sugar</li>
+                    <li>1 1/4 cups heavy cream</li>
+                    <li>2 tsp. pumpkin pie spice</li>
+                    <li>1 tsp. pure vanilla extract</li>
+                    <li>1/4 tsp. kosher salt</li>
+                    <li>Whipped cream, for serving (optional)</li>
+                </ul>
+                
+            </section>
+
+            <section>
+                <h3>
+                    Directions
+                </h3>
+
+                <p>
+                    First, preheat the oven to 375°F (190°C) and place a backing sheet inside.
+                    Get a 9" x 1.5" pie dish and lightly grease it with the cooking spray.
+                    Spread some flour on a surface and roll dough to approximately a 12" circle.
+                    Drape the dough over the pie dish and gently press it down to fit it in, eliminating all air bubbles.
+                    Trim the overhang to 1" and tuck it under itself. Crimp the edges of the dough as desired.
+                    Place it in the fridge until it's cold. Minimum 30 minutes; maximum 3 hours.
+                    Line the dough with foil/parchment and fill it with pie weights.
+                    Bake the crust until the top and sides are dry and set (15-18 minutes), and then remove the foil and pie weights.
+                    Continue baking in the oven until the bottom is dry (~5 minutes). 
+                    Let it cool down before reducing the oven to 350°F (175°C).
+                <p>
+                    Get a large bowl and whisk together the eggs, pumpkin, brown sugar, cream, pumpkin pie spice, vanilla, salt, and flour until the mixture is smooth.
+                    Pour it into the crust, and then gently place the pie dish on a heated sheet.
+                    Bake the pie until the filling is a little jiggly in the middle and the crust is golden brown (45-50 minutes).
+                    Switch off the oven and prop open the door to let the pie cool for 30 minutes.
+                    Then, transfer the pie dish to a wire rack to let it cool completely.
+                    Serve with whipped cream if desired.
+                </p>
+            </section>
+        </article>
+        
+<!-- Forest Trifles start here -->
+        <article>
+            <h2 class="amarante-regular">
+                Mini Black Forest Trifles
+            </h2>
+
+            <section>
+                <h3>
+                    Recipe Overview
+                </h3>
+
+                <p>
+                    Yields: 12 servings &nbsp;|&nbsp; Prep time: 15 minutes &nbsp;|&nbsp; Total Time: 2 hours
+                </p>
+            </section>
+
+            <div class="photos">
+                <img src="./images/forest-trifle.png" alt="A photo of a trifle.">
+            </div>
+            
+            <section>
+                <h3>
+                    Ingredients
+                </h3>
+
+                <ul>
+                    <li>Cooking spray</li>
+                    <li>1 (13.25 oz) box chocolate cake mix + ingredients called for on box</li>
+                    <li>3 tbsp. kirsch cherry liqueur, divided (optional)</li>
+                    <li>1 (3 oz) box instant chocolate pudding</li>
+                    <li>2 cups milk</li>
+                    <li>2 cups heavy cream</li>
+                    <li>1/4 cup (30 g) confectioners sugar</li>
+                    <li>1 (13 oz) jar cherry preserves</li>
+                    <li>Chocolate shavings, for serving</li>
+                    <li>Cake tester</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>
+                    Directions
+                </h3>
+
+                <p>
+                    Arrange a rack in the centre of the oven and preheat it to 350°F (175°C).
+                    Get a 13" x 9" baking pan and it grease it with cooking spray.
+                    Get a large bowl and make the cake mix according to the instructions on the box.
+                    Then, pour the batter into the baking pan.
+                    Place the pan inside the over and wait until the batter is baked fully (20-25 minutes). 
+                    Check this by inserting the cake tester into the centre of the cake and pulling it out to see if any batter hasn't baked.
+                    Use a fork to poke the cake all over, and then brush 2 tbsp of liqueur over the top (if using).
+                    Let the cake cool.
+                    Cut approximately half of the cake into 1/2" pieces and reserve the remaining cake for another use.
+                </p>
+
+                <p>
+                    Get a medium bowl and whisk together the pudding mix and the milk until it starts to thicken.
+                    Place into the fridge until it's ready to be used.
+                    Get a large bowl and place in the cream and sugar.
+                    Beat them with a handheld mixer on medium-high speed until medium peaks form.
+                    Get a small bowl and combine the cherry preserves and the remaining 1 tbsp. of kirsch (if using).
+                    Gather small glasses or jars and place 4-5 cake pieces to cover the bottom.
+                    top the cake pieces with whipped cream, the preserves mixture, and then chocolate pudding.
+                    Repeat the layers again, and then top the glasses with another spoonful of whipped cream and chocolate shavings.
+                    Place into the fridge until they're ready to be served.
+                </p>
+            </section>
+        </article>
+
+<!-- Apple cider donuts start here -->
+        <article>
+            <h2 class="amarante-regular">
+                Apple Cider Donuts
+            </h2>
+
+            <section>
+                <h3>
+                    Recipe Overview
+                </h3>
+
+                <p>
+                    Yields: 12 servings &nbsp;|&nbsp; Prep time: 10 minutes &nbsp;|&nbsp; Total Time: 1 hour
+                </p>
+            </section>
+
+            <div class="photos">
+                <img src="./images/donuts.png" alt="A photo of sugar donuts.">
+            </div>
+            
+            <section>
+                <h3>
+                    Ingredients
+                </h3>
+
+                <ul>
+                    <li>Cooking spray</li>
+                    <li>1 cup apple cider</li>
+                    <li>2 cups (240 g) all-purpose flour</li>
+                    <li>1 tsp. baking powder</li>
+                    <li>1 tsp. kosher salt</li>
+                    <li>1/2 tsp. ground nutmeg</li>
+                    <li>1/4 tsp ground ginger</li>
+                    <li>3 1/2 tsp ground cinnamon, divided</li>
+                    <li>3/4 cup vegetable oil</li>
+                    <li>1/2 cup (105 g) packed dark brown sugar</li>
+                    <li>1 cup (200 g) granulated sugar, divided</li>
+                    <li>1 egg</li>
+                    <li>6 tbsp. unsalted butter, melted</li>
+                    <li>2 (6-cavity) donut pans</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>
+                    Directions
+                </h3>
+
+                <p>
+                    Preheat the oven to 350°F (175°C) and grease the 2 donut pans with cooking spray.
+                    Get a small pot, pour in the apple cider, and place it on the stove on medium heat.
+                    Bring the apple cider to a boil and cook until it's reduced to approximately 1/2 cup (10-15 minutes).
+                    Then, let it cool down.
+                    While the apple cider is cooking, get a medium bowl and whisk together the flour, baking powder, salt, nutmeg, ginger, and 2 tsp cinnamon.
+                    Get a large bowl and whisk together the oil, brown sugar, and 1/2 cup granulated sugar.
+                    Add the egg and whisk until it's fullt incorperated in the mixture.
+                    Add the dry ingredients and the apple cider and whisk right until it's combined.
+                </p>
+
+                <p>
+                    Once you have your batter, transfer it to a piping or plastic bag with a small corner snipped off.
+                    Pipe the batter into the donut pans (or scoop the batter in with a spoon) until each cavity is approximately 3/4 full.
+                    Place the pans in the oven and bake the donuts until the tops are dry (12-15 minutes).
+                    Let them cool for 5 minutes, and then place the pans onto a wire rack.
+                    Get a wide shallow bowl and combine the remaining 1/2 cup granulated sugar and 1 1/2 tsp cinnamon.
+                    Brush the donuts with butter while they're still warm and sprinkle the cinnamon sugar on top of each donut.
+                </p>
+            </section>
+        </article>
+
+<!-- button to more recipes below -->
+        <article class="more">
+            <h3>
+                More Recipes
+            </h3>
+
+            <p>
+                Interested in more recipes? Click the button
+                below for more delicious autumn-themed desserts!
+                These recipes are courtesy of Delish.
+            </p>
+
+            <a href="https://www.delish.com/cooking/g69062848/best-fall-desserts/?utm_source=google&utm_medium=cpc&utm_campaign=mgu_ga_del_md_pmx_prog_org_ca_18639947754&gad_source=1&gad_campaignid=18639961644&gbraid=0AAAAACq-IPzPow-a2Ewwfu1KZOzQk0_LB&gclid=CjwKCAjwlY3WBhANEiwApsNrLcVwrZ3qCVddrvrrOHEZ-QLRHKUxanRPBdp3E9p73hyBvDtKd9QP7xoClyUQAvD_BwE">
+                More Desserts
+            </a>
+        </article>
     </main>
-
-
 
     <footer>
         <p>
-            info goes here.
+            Olivia Bondy | Web & Multimedia I | &copy; 2026
         </p>
     </footer>
-
 </body>
 </html>
