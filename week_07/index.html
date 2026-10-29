@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ford Landing</title>
+    <title>Ford | Escape</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,13 +11,15 @@
 
     <style>
 
-        /* a - colour white - text-decoration-line */
         body{
             width: 1920px;
             height: 2160px;
             margin: 0 auto;
             font-family: Bebas Neue;
-            font-size: 13pt; 
+        }
+
+        .top-half{
+            font-size: 13pt;
             color: white;
         }
 
@@ -61,6 +63,7 @@
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
+            padding: 0
         }
 
         .item1{
@@ -69,7 +72,7 @@
 
         .item2{
             font-size: 55pt;
-            margin: -14px 0
+            margin: -15px 0
         }
 
         .item3{
@@ -103,45 +106,220 @@
             border-radius: 20px;
         }
 
+        /* bottom half */
+
+        .bottom-half{
+            min-height: 1080px;
+            background-image: url("./images/find-the-right-ride_bg.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 0px 250px;
+        }
+
+        .headings{
+            margin: 140px 165px;
+            display: flex;
+            flex-direction: column;
+            height: 110px;
+        }
+
+        h2{
+            font-size: 56pt;
+            font-weight: 100;
+            margin: 0;
+        }
+
+        h3, h4{
+            font-size: 30pt;
+            margin: 0;
+            font-weight: 100;
+        }
+
+        h5{
+            font-size: 20pt;
+            margin: 0;
+            font-weight: 100;
+        }
+
+        .car-container{
+            display: flex;
+            justify-content: space-between;
+            margin: 320px 73px;
+            width: 1830px;
+        }
+
+        .carinfo{
+            color: black;
+            background-color: #efefef;
+            width: 325px;
+            min-height: 372px;
+            font-size: 14pt;
+            padding: 20px;
+        }
+
+        ul{
+            margin-top: 40px;
+        }
+
+        li{
+            padding-top: 5px
+        }
+
+        .carbtn{
+            background-color: #0276b3;
+            color: white;
+            width: 160px;
+            min-height: 40px;
+            border-radius: 20px;
+            text-align: center;
+            line-height: 40px;
+            margin-top: 50px;
+        }
+
     </style>
 </head>
 <body>
+    <div class="top-half">
+        <div class="logo">
+            <img src="images/fordoval.svg.png" alt="ford logo">
+        </div>
+
+        <div class="sitenav">
+            <div> VEHICLES </div>
+            <div> SHOP </div>
+            <div> SUPPORT & SERVICE </div>
+            <div> FORD PRO SOLUTIONS </div>
+        </div>
+
+        <div class="custnav">
+            <div> <img src="images/search-v2-white.png" alt="search icon"></div>
+            <div><img src="images/location-outline-v2-white.png" alt="locate icon"></div>
+            <div class="locate">LOCATE DEALER</div>
+            <div><img src="images/account-outline-v2-white.png" alt="account icon"></div>
+            <div><img src="images/globe-v2-white.png" alt="globe icon"></div>
+        </div>
+
+        <div class="copy">
+            <div class="item1"> 2026 </div>
+            <div class="item2">ESCAPE<sup>®</sup></div>
+            <div class="item3">STARTING AT $30,350<sup>1</sup> </div>
+            <div class="item4">DETAILS</div>
+        </div>
+
+        <div class="buttons">
+            <div class="btn1">search invantory</div>
+            <div class="btn2">2025 escape</div>
+        </div>
+
+        <div class="hero">
+            <img src="images/hero_car.png" alt="car ad">
+        </div>
+    </div>
     
-    <div class="logo">
-        <img src="images/FordOval.svg.png" alt="ford logo">
-    </div>
+    <!-- bottom half here -->
+    
+    <div class="bottom-half">
+        <div class="headings">
+            <h2>Find the Right Ride for Your Road</h2>
+            <h3>4 options to make your move.</h3>
+        </div>
+    
+        <div class="car-container">
+            <div>
+                <div> <img src="images/escape_plug-in_hybrid.png" alt="image of Ford Escape Plug-In Hyprid"> </div>
+                <div class="carinfo">
+                    <div> 
+                        <h4>Escape<sup>®</sup> Plug-in Hybrid</h4>
+                    </div>
+                    <div> 
+                        <h5>Starting at $35,400<sup>1</sup></h5> 
+                    </div>
+                    <div>
+                        <ul>
+                            <li>2.5L iVCT Atkinson Cycle I-4 hybrid engine</li>
+                            <li>Standard front-wheel drive</li>
+                            <li>13.2" center display</li>
+                            <li>101 EPA-est. MPGe (combined)</li>
+                        </ul>
+                    </div>
+                    <div class="carbtn">
+                        build & price
+                    </div>
+                </div>
+            </div>
 
-    <div class="sitenav">
-        <div> VEHICLES </div>
-        <div> SHOP </div>
-        <div> SUPPORT & SERVICE </div>
-        <div> FORD PRO SOLUTIONS </div>
-    </div>
+            <div>
+                <div> <img src="images/escape_active.png" alt="image of Ford Escape Active"> </div>
+                <div class="carinfo">
+                    <div> 
+                        <h4>Escape<sup>®</sup> Active</h4>
+                    </div>
+                    <div> 
+                        <h5>Starting at $30,350<sup>1</sup></h5> 
+                    </div>
+                    <div>
+                        <ul>
+                            <li>2.5L iVCT Atkinson Cycle I-4 hybrid engine</li>
+                            <li>Standard front-wheel drive</li>
+                            <li>13.2" center display</li>
+                            <li>101 EPA-est. MPGe (combined)</li>
+                        </ul>
+                    </div>
+                    <div class="carbtn">
+                        build & price
+                    </div>
+                </div>
+            </div>
 
-    <div class="custnav">
-        <div> <img src="images/search-v2-white.png" alt="search icon"></div>
-        <div><img src="images/location-outline-v2-white.png" alt="locate icon"></div>
-        <div class="locate">LOCATE DEALER</div>
-        <div><img src="images/account-outline-v2-white.png" alt="account icon"></div>
-        <div><img src="images/globe-v2-white.png" alt="globe icon"></div>
+            <div>
+                <div> <img src="images/escape_st-line.png" alt="image of Ford Escape ST-line"> </div>
+                <div class="carinfo">
+                    <div> 
+                        <h4>Escape<sup>®</sup> ST-Line</h4>
+                    </div>
+                    <div> 
+                        <h5>Starting at $31,195<sup>1</sup></h5> 
+                    </div>
+                    <div>
+                        <ul>
+                            <li>2.5L iVCT Atkinson Cycle I-4 hybrid engine</li>
+                            <li>Standard front-wheel drive</li>
+                            <li>13.2" center display</li>
+                            <li>101 EPA-est. MPGe (combined)</li>
+                        </ul>
+                    </div>
+                    <div class="carbtn">
+                        build & price
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <div> <img src="images/escape_platinum.png" alt="image of Ford Escape Platinum"> </div>
+                <div class="carinfo">
+                    <div> 
+                        <h4>Escape<sup>®</sup> Platinum</h4>
+                    </div>
+                    <div> 
+                        <h5>Starting at $37,940<sup>1</sup></h5> 
+                    </div>
+                    <div>
+                        <ul>
+                            <li>2.5L iVCT Atkinson Cycle I-4 hybrid engine</li>
+                            <li>Standard front-wheel drive</li>
+                            <li>13.2" center display</li>
+                            <li>101 EPA-est. MPGe (combined)</li>
+                        </ul>
+                    </div>
+                    <div class="carbtn">
+                        build & price
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    
 
-    <div class="copy">
-        <div class="item1"> 2026 </div>
-        <div class="item2">ESCAPE<sup>®</sup></div>
-        <div class="item3">STARTING AT $30,350<sup>1</sup> </div>
-        <div class="item4">DETAILS</div>
-    </div>
-
-    <div class="buttons">
-        <div class="btn1">search invantory</div>
-        <div class="btn2">2025 escape</div>
-    </div>
-
-    <div class="hero">
-        <img src="images/hero_car.png" alt="car ad">
-    </div>
-<!-- bottom half goes here -->
 
 </body>
 </html>
